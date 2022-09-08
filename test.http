@@ -1,0 +1,29 @@
+###GET
+GET http://localhost:3000/api/categories
+Accept: application/json
+
+###GetById
+GET http://localhost:3000/api/categories/1
+Accept: application/json
+
+###Create
+POST http://localhost:3000/api/categories
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name"  :   "Handphone"
+}
+
+###Update
+PUT http://localhost:3000/api/categories/1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name"  :   "Laptop"
+}
+
+###DELETE
+DELETE http://localhost:3000/api/categories/1
+Accept: application/json
